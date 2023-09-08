@@ -1,0 +1,155 @@
+:root{
+    --main-cards-back-color: rgb(30, 28, 28);
+    --main-cards-font-color: white;
+    
+    --main-body-back-color: rgb(42, 42, 42);
+
+    --main-font: arial;
+
+    --card-contents-back-color:rgb(42, 39, 39);
+
+
+    --main-hover-color-destaque: rgb(0, 123, 245);
+}
+*{
+  color: var(--main-cards-font-color);
+  font-family: var(--main-font);
+}
+body{
+    background-color: var(--main-body-back-color);
+}
+
+header{
+    position: fixed;
+    left: 0%;top: 0%;
+    width: 100%;
+    height: auto;
+ 
+    background-color: var(--main-cards-back-color);
+    font-family: var(--main-font);
+    color: var(--main-cards-font-color);
+ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;gap: 2%;
+ 
+    box-shadow: 5px 6px 7px black;
+ }
+ header div{
+ 
+     width: 30%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     gap: 15%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ 
+ 
+ 
+     height: 100%;
+ }
+ 
+ 
+ header input{
+     text-align: center;
+     font-family: var(--main-font);
+     color:var(--main-cards-font-color);
+     font-weight: bolder;
+     font-size: 30px;
+     outline: none;
+     border: none;
+     background-color: var(--card-contents-back-color);
+     border-radius: 20px;
+     width: 80%;
+     height: 50px;
+ }
+ 
+ .topnav {
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--main-cards-back-color);
+     overflow: hidden;
+   }
+   .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     width: 22%;
+     font-size: 17px;
+   }
+   .topnav a:hover {
+     background-color: var(--main-hover-color-destaque);
+     color: black;
+   }
+   
+
+   .flexbox{
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 50px;
+   }
+   .flexbox button{
+    width: 80%;height: 10%;
+    background-color: var(--main-hover-color-destaque);
+    border-radius: 15px;
+    border: none;outline: none;
+    box-shadow:8px 7px 8px black;
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    transition: .5s ease;
+   }
+
+   .flexbox button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+
+    .flexboxdiv{
+      width: 80%;
+      height: 550px;
+
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      background-color: var(--main-cards-back-color);
+      box-shadow: 5px 6px 7px  black;
+      
+
+
+    }
+    .flexboxseconddiv{
+      width:80%;height: 70%;
+
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+
+    .other-box-container{
+      width: 40%;height: 100%;
+      background-color: var(--card-contents-back-color);
+      box-shadow: 6px 6px 7px black;
+      justify-content: start;
+      align-items: center;display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }

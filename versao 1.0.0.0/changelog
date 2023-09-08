@@ -1,0 +1,12 @@
+versao 1.0.0.0 -------
+-- adiçao da pagina home 
+   -- navbar(semi-responsivo)
+   -- primeira area de conteudos(responsivo mas recomenda-se atualizaçao futura)
+   -- adiçao de icones e imagens para as divs principais
+
+--arquivos js com funçoes basicas que seram utilizadas para todos as paginas
+   --funçao de resposta para fins de debug
+   --funçao de movimentaçao entre pastas
+   
+--tela de aboutme parcialmente completa
+   --ainda falta adicionar a flexibilidade nas imagens

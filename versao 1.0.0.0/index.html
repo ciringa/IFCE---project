@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectê</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<header>
+    <div name="logo-place">
+
+        <img src="imgs/logo-placeholder.png" style="width: 80px;height: 80px; filter: invert(100%);">
+
+    </div>
+    <div name=" search bar place">
+        <input type="search" name="searc-bar" id="inp-search-bar">
+    </div>
+    <div name="places to put some buttons">
+        <img class ="header-button" src="imgs/luz-off.png" style="width: 50px;height: 50px;">
+        <img class ="header-button" src="imgs/user.png" style="width: 50px;height: 50px; " onclick="goto('login.html')">
+    </div>
+
+    
+    <section class="topnav">
+        <a href="#home" onclick="goto('index.html')">Home</a>
+        <a href="#news" onclick="messsager('desculpe este link nao esta pronto ainda')">News</a>
+        <a href="#contact" onclick="messsager('desculpe este link nao esta pronto ainda')">Contact</a>
+        <a href="#about"onclick="goto('aboutme.html')">About</a>
+    </section>
+</header>
+<body>
+
+    <div class="flex-box">
+        <div id="main-index-card" style="background-image: url('imgs/disc-imgs/universe02.jpg');">
+        
+        <h2 style="width: 80%;"> 
+            Conectê é um projeto feito por dois amigos com a ideia de conectar pessoas com capacidades e ideias diferentes dentro de instituiçoes de ensino como o <strong>IFCE</strong>  por exemplo.
+        </h2>
+        <img src="imgs/logo-placeholder.png" style="width: 100px;height: 100px;">
+            <a onclick="goto('aboutme.html')">quem somos?</a>
+            <a onclick="goto('aboutme.html')">o que queremos?</a>
+            <a onclick="goto('aboutme.html')">de onde viemos?</a>
+        </div>
+        <div name="programaçao-web" style="background-image: url('imgs/disc-imgs/programaçao-web(edit).jpg');">
+        <button class="hidden-text">entrar</button>
+        
+        </div>
+        <div name="design-web" style="background-image: url('imgs/disc-imgs/design-web(edit).jpg');" style="background-position: center;">
+            <button class="hidden-text">entrar</button>
+        </div >
+        <div name="artes-2d" style="background-image: url('imgs/disc-imgs/artes2D.jpg');" >
+            <button class="hidden-text">entrar</button>
+        </div>
+        <div name="artes-3d" style="background-image: url('imgs/disc-imgs/arte3d.jpg');">
+            <button class="hidden-text">entrar</button>
+        </div>
+        <div name="musica" style="background-image: url('imgs/disc-imgs/musica.jpg');">
+            <button class="hidden-text">entrar</button>
+        </div>
+        <div name="pixel-art"style="background-image: url('imgs/disc-imgs/pixel-art.jpg');">        <button class="hidden-text">entrar</button></div>
+
+        </div>
+
+        <div id="second-index-card" style="background-image: url('imgs/disc-imgs/universe.jpg');">
+        
+            <h2 style="width: 80%;"> 
+              eventos importantes
+            </h2>
+            <p>ainda nao ha registo de nenhum evento importante</p>
+            <img src="imgs/disc-imgs/news.jpg" style="height: 200px;width: 180px;border-radius: 25px;">
+            </div>
+    </div>
+
+
+    
+</body>
+<script src="scripts/default-functions.js"></script>
+</html>

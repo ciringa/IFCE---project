@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<header>
+    <div name="logo-place">
+
+        <img src="imgs/logo-placeholder.png" style="width: 80px;height: 80px; filter: invert(100%);">
+
+    </div>
+    <div name=" search bar place">
+        <input type="search" name="searc-bar" id="inp-search-bar">
+    </div>
+    <div name="places to put some buttons">
+        <img class ="header-button" src="imgs/luz-off.png" style="width: 50px;height: 50px;">
+        <img class ="header-button" src="imgs/user.png" style="width: 50px;height: 50px; ">
+    </div>
+
+    
+    <section class="topnav">
+        <a href="#home" onclick="goto('index.html')">Home</a>
+        <a href="#news" onclick="messsager('desculpe este link nao esta pronto ainda')">News</a>
+        <a href="#contact" onclick="messsager('desculpe este link nao esta pronto ainda')">Contact</a>
+        <a href="#about"onclick="goto('aboutme.html')">About</a>
+    </section>
+</header>
+
+
+<body >
+ <div class="flexContainer">
+
+    <div id="main-container" style="background-image: url('imgs/background.jpg');">
+
+            <input type="text" name="email-inpt" id="email-inpt" placeholder="email">
+            <input type="password" name="password-inpt" id="password-inpt" placeholder="password">
+            <button>log-in</button>
+            <div style="display: flex;flex-direction: row;gap: 15px;width: 100%;justify-content: center;align-items: center;">
+                <a>sign-up</a><a>esqueci a senha</a>
+            </div>
+    </div>
+
+ </div>
+
+    
+    
+</body>
+
+<script src="scripts/default-functions.js"></script>
+</html>
